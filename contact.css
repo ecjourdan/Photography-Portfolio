@@ -193,7 +193,8 @@ nav, ul {
      align-items: center;
      justify-content: center;
      gap:1rem;
-     padding: 1rem;
+     padding: 1.5rem;
+     line-height: .6rem;
      }
  
     ul {
@@ -487,6 +488,7 @@ footer img {
         align-items: center;
         height: auto;
         justify-content: center;
+        line-height: .6rem;
     }
     
     .pages {
@@ -497,7 +499,9 @@ footer img {
         height: 2.5rem;
     }
     
-
+    nav a {
+        gap: 1.5rem;
+    }
 }
 
 

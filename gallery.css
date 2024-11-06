@@ -226,7 +226,8 @@ nav, ul {
      align-items: center;
      justify-content: center;
      gap:1rem;
-     padding: 1rem;
+     padding: 1.5rem;
+     line-height: .6rem;
      }
  
     ul {
@@ -241,7 +242,9 @@ nav, ul {
      flex-wrap: wrap;
      align-items: center;
      justify-content: center;
-     }
+    }
+    
+     
   
     ul {
         padding-left: 0rem;
@@ -591,10 +594,16 @@ footer img {
 @media screen and (max-width: 530px) {
 
     nav {
-        align-items: center;
+        display: flex;
         height: auto;
+        flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
-    }
+        gap:1rem;
+        padding: 1.5rem;
+        line-height: .6rem;
+        }
+    
     
     .pages {
         gap: .5rem;
@@ -602,6 +611,10 @@ footer img {
     
     nav img {
         height: 2.5rem;
+    }
+
+    nav a {
+        gap: 1.5rem;
     }
     
 
