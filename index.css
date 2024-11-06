@@ -48,6 +48,7 @@ p {
     border: none;
     text-shadow: .25rem .25rem .25rem rgba(0, 0, 0, .25);
     padding: .3rem .9rem;
+    font-variation-settings: "wdth" 75; 
 }
 
 .light {
@@ -68,7 +69,6 @@ p {
     background-color: rgb(50, 113, 89);
     border: none;
     border-radius: .3rem;
-    padding: .3rem .9rem;
     text-shadow: none;
 }
 
