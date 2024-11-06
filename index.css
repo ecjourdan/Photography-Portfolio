@@ -720,3 +720,21 @@ footer img {
         font-size: .8rem;
     }
 }
+
+@media screen and (max-width: 380px) {
+    nav h2 {
+        font-size: 1.5rem;
+    }
+
+    nav img {
+        max-width: 2rem;
+    }
+
+    nav {
+        gap:.5rem;
+    }
+
+    p {
+       font-size: 1rem;
+    }
+}
