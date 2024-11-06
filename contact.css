@@ -1,79 +1,3 @@
-
-form {
-    margin: 3rem 2rem;
-    justify-content: center;
-}
-
-input[type=text], select, textarea {
-    display: block;
-    width: 80%;
-    padding:.75rem;
-    background-color: #e0e6e8;
-    border: 2px solid #1D4234;
-    border-radius: .3rem;
-    margin: .5rem 3rem;
-}
-
-input[type=text] {
-    font-size: 1rem;
-    font-family: Open Sans;
-    font-weight: 400;
-    margin-bottom: 1.5rem;
-    margin-top: .5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-
-.message {
-    font-size: 1rem;
-    font-family: Open Sans;
-    font-weight: 400;
-}
-
-
-label {
-    font-family: Open Sans Condensed;
-    font-size: 2rem;
-    font-weight: 700;
-    color: #484848;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-
-input[type=submit]:hover {
-    font-family: Open Sans Condensed;
-    font-size: 2rem;
-    font-weight: 700;
-    color: #484848;
-    background-color: rgb(50, 113, 89, .5);
-    border: none;
-    padding: .3rem .9rem;
-}
-
-input[type=submit] {
-    font-family: Open Sans Condensed;
-    font-size: 2rem;
-    font-weight: 700;
-    color: #ffffff;
-    background-color: rgb(50, 113, 89);
-    border: none;
-    border-radius: .3rem;
-    padding: .3rem .9rem;
-    text-shadow: none;
-    margin: 1rem 3rem;
-}
-
-input[type=submit]:active {
-    border: .2rem;
-    border-color: #c6ffc1;
-    border-style: solid;
-    border-radius: .3rem;
-    color: #ffffff;
-    background-color: rgb(50, 113, 89);
-}
-
-
-
 * {
     box-sizing: border-box;
 }
@@ -219,16 +143,6 @@ nav, ul {
 
 
 
-/* TITLE CONTACT */
-.hero-contact {
-    max-height: 25%;
-    padding: 2rem 4rem;
-    align-items: center;
-    justify-content: center;
-    background-color: #e0e6e8;
-}
-/* TITLE CONTACT END */
-
 @media screen and (max-width: 1200px) {
     nav {
         justify-content: in-between;
@@ -325,11 +239,107 @@ nav, ul {
     }
  }
 
+ .contact-form {
+    justify-content: center;
+    margin-inline-start: 25%;
+    margin-block-start: 4rem;
+    align-items: center;
+}
+
+@media screen and (max-width:530px) {
+    .contact-form {
+        justify-content: center;
+        margin-inline-start: 20%;
+        margin-block-start: 4rem;
+        align-items: center;
+    }
+
+
+    input[type=text], select, textarea {
+        min-width: 75%;
+        padding:.75rem;
+        background-color: #e0e6e8;
+        border: 2px solid #1D4234;
+        border-radius: .3rem;
+        margin-top: .5rem;
+    }
+}
+
+input[type=text], select, textarea {
+    width: 70%;
+    padding:.75rem;
+    background-color: #e0e6e8;
+    border: 2px solid #1D4234;
+    border-radius: .3rem;
+    margin-top: .5rem;
+}
+
+input[type=text] {
+    font-size: 1rem;
+    font-family: Open Sans;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    margin-top: .5rem;
+}
+
+.message {
+    font-size: 1rem;
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+
+label {
+    font-family: Open Sans Condensed;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #484848;
+}
+
+input[type=submit]:hover {
+    font-family: Open Sans Condensed;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #484848;
+    background-color: rgb(50, 113, 89, .5);
+    border: none;
+    padding: .3rem .9rem;
+}
+
+input[type=submit] {
+    font-family: Open Sans Condensed;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: rgb(50, 113, 89);
+    border: none;
+    border-radius: .3rem;
+    padding: .3rem .9rem;
+    text-shadow: none;
+    margin: 1rem 0rem;
+}
+
+input[type=submit]:active {
+    border: .2rem;
+    border-color: #c6ffc1;
+    border-style: solid;
+    border-radius: .3rem;
+    color: #ffffff;
+    background-color: rgb(50, 113, 89);
+}
 
 
 /* NAV BAR END */
 
-
+/* TITLE CONTACT */
+.hero-contact {
+    max-height: 25%;
+    padding: 2rem 4rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e6e8;
+}
+/* TITLE CONTACT END */
 
 
 @media screen and (max-width: 1380px) {
