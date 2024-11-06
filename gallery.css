@@ -273,7 +273,7 @@ nav, ul {
 
 /* FEATURED COLLECTION */
 .featured-collection-great-saltees  {
-    background-image: url("images/IMG_3721.JPG");
+    background-image: url("images/great-saltee/IMG_3721.JPG");
     display: flex;
     padding: 3rem 4.5rem;
     flex-direction: column;
