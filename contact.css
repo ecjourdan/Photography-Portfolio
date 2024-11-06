@@ -5,21 +5,24 @@
 h1 {
     font-family: Open Sans;
     color: #484848;
-    font-size: 3.25rem;
-    font-weight: 700;
+    font-size: 4rem;
+    font-weight: 300;
     text-align: center;
+    line-height: 4.5rem;
+    letter-spacing: .25rem;
 }
 
 h2 {
     font-family: Open Sans;
     font-size: 2.25rem;
     font-weight: 700;
+    text-decoration: none;
 }
 
 h3 {
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #484848;
 }
 
@@ -31,9 +34,9 @@ p {
 }
 
 .dark {
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #ffffff;
     background-color: transparent;
     border: none;
@@ -42,9 +45,9 @@ p {
 }
 
 .light {
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 2rem;
-    font-weight: 700;
+     font-weight: 600;
     color: #484848;
     background-color: transparent;
     border: none;
@@ -52,21 +55,23 @@ p {
 }
 
 .dark:hover {
-    font-family: Open Sans Condensed;
-    font-size: 2rem;
-    font-weight: 700;
+    font-family: Barlow Condensed;
+    font-weight: 600;
     color: #ffffff;
     background-color: rgb(50, 113, 89);
     border: none;
     border-radius: .3rem;
-    padding: .3rem .9rem;
     text-shadow: none;
 }
 
+.dark:active {
+    border: .2rem;
+    border-color: white;
+    border-style: solid;
+    border-radius: .3rem;
+}
+
 .light:hover {
-    font-family: Open Sans Condensed;
-    font-size: 2rem;
-    font-weight: 700;
     color: white;
     background-color: rgb(50, 113, 89);
     border: none;
@@ -82,10 +87,30 @@ p {
 }
 
 
+.green {
+    font-family: Barlow Condensed;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #c6ffc1;
+    border-style: none;
+}
+
+.green:hover {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #c6ffc1;;
+    border-style: none;
+}
+
+.green {
+    border-style: none;
+}
+
+
 
 a {
     color: white;
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 1.75rem;
     font-weight: 600;
     text-decoration: none;
@@ -101,6 +126,7 @@ a:hover {
 ul {
     list-style: none;
 }
+
 /* TYPOGRAPHY END */
 
 
@@ -291,16 +317,16 @@ input[type=text] {
 
 
 label {
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #484848;
 }
 
 input[type=submit]:hover {
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #484848;
     background-color: rgb(50, 113, 89, .5);
     border: none;
@@ -308,9 +334,9 @@ input[type=submit]:hover {
 }
 
 input[type=submit] {
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #ffffff;
     background-color: rgb(50, 113, 89);
     border: none;
@@ -449,7 +475,6 @@ footer img {
         }
         
     .dark:hover {
-            font-family: Open Sans Condensed;
             font-size: 1.3rem;          
             padding: .3rem .9rem;
         }

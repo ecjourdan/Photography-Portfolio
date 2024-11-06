@@ -1,7 +1,5 @@
 photo-collection page
-* {
-    font-family: Open Sans;
-}
+
 
 * {
     box-sizing: border-box;
@@ -10,21 +8,25 @@ photo-collection page
 h1 {
     font-family: Open Sans;
     color: white;
-    font-size: 3.5rem;
-    font-weight: 700;
+    font-size: 4rem;
+    font-weight: 300;
     text-align: center;
+    line-height: 4.5rem;
+    letter-spacing: .25rem;
 }
 
 h2 {
     font-family: Open Sans;
     font-size: 2.25rem;
     font-weight: 700;
+    text-decoration: none;
+    letter-spacing: .2rem;
 }
 
 h3 {
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #484848;
 }
 
@@ -35,10 +37,84 @@ p {
     line-height: 2.5rem;
 }
 
+.dark {
+    font-family: Barlow Condensed;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    text-shadow: .25rem .25rem .25rem rgba(0, 0, 0, .25);
+    padding: .3rem .9rem;
+}
+
+.light {
+    font-family: Barlow Condensed;
+    font-size: 2rem;
+     font-weight: 600;
+    color: #484848;
+    background-color: transparent;
+    border: none;
+    padding: .3rem .9rem;
+}
+
+.dark:hover {
+    font-family: Barlow Condensed;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: rgb(50, 113, 89);
+    border: none;
+    border-radius: .3rem;
+    text-shadow: none;
+}
+
+.dark:active {
+    border: .2rem;
+    border-color: white;
+    border-style: solid;
+    border-radius: .3rem;
+}
+
+.light:hover {
+    color: white;
+    background-color: rgb(50, 113, 89);
+    border: none;
+    border-radius: .3rem;
+    padding: .3rem .9rem;
+}
+
+.light:active {
+    border: .2rem;
+    border-color: rgb(50, 113, 89);
+    border-style: solid;
+    border-radius: .3rem;
+}
+
+
+.green {
+    font-family: Barlow Condensed;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #c6ffc1;
+    border-style: none;
+}
+
+.green:hover {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #c6ffc1;;
+    border-style: none;
+}
+
+.green {
+    border-style: none;
+}
+
+
 
 a {
     color: white;
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 1.75rem;
     font-weight: 600;
     text-decoration: none;
