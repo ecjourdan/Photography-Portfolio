@@ -273,7 +273,7 @@ nav, ul {
 
 /* FEATURED COLLECTION */
 .featured-collection-great-saltees  {
-    background-image: url("Practice website/Practice website/IMG_3721.JPG");
+    background-image: url("images/IMG_3721.JPG");
     display: flex;
     padding: 3rem 4.5rem;
     flex-direction: column;
@@ -482,16 +482,16 @@ nav, ul {
         flex-wrap: wrap-reverse;
     }
 
-    #colllection-left-image img {
-        max-width: 32rem;
+    #collection-left-image img {
+        max-width: 20rem;
     }
     
     #collection-left-text {
         max-width: 100%;
     }
 
-    #colllection-right-image img {
-        max-width: 32rem;
+    #collection-right-image img {
+        max-width: 20rem;
     }
     
     #collection-right-text {
