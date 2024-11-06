@@ -1,7 +1,5 @@
 /* TYPOGRAPHY */
-* {
-    font-family: Open Sans;
-}
+
 
 * {
     box-sizing: border-box;
@@ -26,7 +24,7 @@ h2 {
 }
 
 h3 {
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 2rem;
     font-weight: 700;
     color: #484848;
@@ -40,7 +38,7 @@ p {
 }
 
 .dark {
-    font-family: Open Sans;
+    font-family: Barlow Condensed;
     font-size: 2rem;
     font-weight: 700;
     color: #ffffff;
@@ -48,11 +46,10 @@ p {
     border: none;
     text-shadow: .25rem .25rem .25rem rgba(0, 0, 0, .25);
     padding: .3rem .9rem;
-    font-variation-settings: "wdth" 75; 
 }
 
 .light {
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 2rem;
      font-weight: 700;
     color: #484848;
@@ -62,7 +59,7 @@ p {
 }
 
 .dark:hover {
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 2rem;
     font-weight: 700;
     color: #ffffff;
@@ -80,7 +77,6 @@ p {
 }
 
 .light:hover {
-    font-family: Open Sans Condensed;
     font-size: 2rem;
     font-weight: 700;
     color: white;
@@ -99,7 +95,7 @@ p {
 
 
 .green {
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 2rem;
     font-weight: 700;
     color: #c6ffc1;
@@ -107,7 +103,6 @@ p {
 }
 
 .green:hover {
-    font-family: Open Sans Condensed;
     font-size: 2rem;
     font-weight: 700;
     text-decoration: underline;
@@ -123,7 +118,7 @@ p {
 
 a {
     color: white;
-    font-family: Open Sans Condensed;
+    font-family: Barlow Condensed;
     font-size: 1.75rem;
     font-weight: 600;
     text-decoration: none;
