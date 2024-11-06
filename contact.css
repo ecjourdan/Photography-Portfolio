@@ -292,6 +292,11 @@ nav, ul {
     }
 }
 
+form {
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
 input[type=text], select, textarea {
     width: 70%;
     padding:.75rem;
